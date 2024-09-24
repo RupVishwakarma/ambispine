@@ -1,0 +1,21 @@
+.Career{ 
+        margin-top: 100px;
+          font-family: "Cormorant Garamond", serif;
+          hr {              
+                    height: 3px;
+                    background-color: black;
+                    
+                }
+          .text-top {
+                    margin: 0px 100px;
+          }
+          @media (max-width: 768px) {
+                
+                    
+                   .text-top {
+                        margin: 0px 10px;
+                       
+              
+                    }
+          }
+}

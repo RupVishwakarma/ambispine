@@ -1,0 +1,101 @@
+*{
+font-family: "Playfair Display", serif;;
+}
+.Card {
+  transition: transform 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.Card:hover {
+  transform: scale(1.1) translateY(15px);
+  opacity: 0.9;
+}
+.Helo_Section-video .video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Helo_Section-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+/* Spread  card.css */
+.Spread-Card{
+  .trade-mark{
+    margin-top: -50px;
+    margin-left: 3px;
+  }
+}
+
+.spread-link a {
+  color: rgb(128, 125, 125);
+  margin: 40px 50px;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.spread-link a:hover {
+  font-size: 1.1em; 
+  
+}
+
+
+.VideoSection {
+  background-color: rgb(70, 70, 70);
+  .video-container {
+    height: 680px;
+    width: 72%;
+  }
+  
+  .videosection-full-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+}
+
+.top-text button {
+  width: 170px;
+  height: 50px;
+  background: none;
+  text-align: center;
+  border: 1px solid white;
+  transition: transform 0.3s ease-in-out, width 0.3s ease-in-out; 
+}
+
+.top-text button:hover {
+  transform: scale(1.1) translateY(10px); 
+  width: 185px;
+}
+
+.response-text-position {
+  top: 30%;
+  width: 60%;
+  h1{
+    font-size: 60px;
+  }
+  p{
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  .response-text-position {
+    top: 30%;
+    width: 100%;
+    h1{
+      font-size: 40px;
+    }
+    p{
+      font-size: 16px;
+    }
+    
+  }
+  @media (max-width: 500px) {
+    .response-text-position {
+
+    }
+  }
+}

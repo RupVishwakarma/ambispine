@@ -1,0 +1,62 @@
+.navbar {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  --bs-navbar-padding-y: none !important;
+  z-index: 1000;
+  .trade-mark{
+    margin-left: -10px;
+    margin-top: -10px;
+    color: white;
+  }
+
+}
+
+#Hero_Section {
+  font-family: "Playfair Display", serif;
+  width: 100vw; 
+  margin-top: 80px;
+  height: 100vh;
+  position: relative; 
+}
+
+#Hero_Section .carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+#Hero_Section .carousel-item {
+  height: 100%;
+}
+
+
+#Hero_Section .carousel-indicators button {
+  width: 50%;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 10px;
+  height: 8px;
+}
+   @media (max-width: 768px) {
+      .text-image {
+        margin-top: 50px;
+        #Hero_Section {
+          font-family: "Playfair Display", serif;
+          width: 100vw; 
+          margin-top: 80px;
+          height: 60vh;
+          /* background-color: rgba(3, 0, 159, 0.895);  */
+          position: relative;
+          
+        }
+      }
+      
+     .text-top {
+          margin: 0px 10px;
+         
+
+      }
+   }
+   
+
+

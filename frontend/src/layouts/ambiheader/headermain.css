@@ -1,0 +1,33 @@
+.bg-color{
+    background-color: rgba(3, 0, 159, 0.895); 
+}
+.link{
+    position: relative;
+    text-decoration: none;
+    font-weight: 400; 
+    padding: 5px;
+    font-size: 20px;
+    transition: font-size 0.3s ease; 
+}
+.link:hover{
+    font-size: 22px;
+}
+.link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: white;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    transition: width 0.3s ease,  left 0.3s ease;;
+}
+.over-view{
+    width: 60%;
+    margin-left: 50px;
+}
+.link:hover::after{
+    width: 100%;
+    left: 0;
+    font-size: large;
+}

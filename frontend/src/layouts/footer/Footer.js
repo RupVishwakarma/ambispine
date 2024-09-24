@@ -1,0 +1,76 @@
+import React from 'react';
+import { IoLocationSharp, IoCallSharp } from "react-icons/io5";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { PiTrademarkLight } from "react-icons/pi";
+import './Footer.css'
+export default function Footer() {
+  return (  
+      <footer className="bg-primary">
+          <div className="container-fluid text-center text-md-start py-1 ">
+            <div className="row  text-white footer-link ">            
+              <div className="col-lg-3 col-md-6  mx-auto text-center ">                
+               <img src="AmbiSpine_logo.png" className='ms-2' width="150" />
+              <PiTrademarkLight className='fs-5 trade-mark'/>
+              <div className='ms-4 '>
+              <a  href='https://www.linkedin.com/company/ambispine-technologies/'><FaLinkedinIn className='fa-I  rounded-1 p-1 fs-3' /></a> 
+              <a  href='https://www.youtube.com/@AmbiSpineTechnologies/' > <FaYoutube  className='fa-y rounded-1 p-1 ms-3 fs-3' /></a>
+              <a  href='https://www.instagram.com/' ><FaInstagramSquare className='fa-Is p-1 rounded-1 p-1 ms-3 fs-3' /> </a>
+              <a href='https://x.com/' ><FaTwitter  className='fa-I rounded-1 ms-3 p-1 fs-3' /> </a>
+              <a href=''><FaFacebookF className=' fa-b rounded-1 p-1 ms-3 fs-3'/></a>
+              </div>  
+              </div>
+              <div className="col-lg-2 col-md-6 mx-auto py-3">            
+                <h6 className=" fw-semibold pt-2 ">Our Company</h6>
+                <p><a href="#!" className="text-reset">About Us</a></p>
+                <p><a href="#!" className="text-reset">Career</a></p>
+                <p><a href="#!" className="text-reset">Newsroom</a></p>
+                <p><a href="#!" className="text-reset">Spreads</a></p>
+                <p><a href="#!" className="text-reset">Spreads Web Solutions</a></p>
+              </div>
+
+             
+              <div className="col-lg-2 col-md-4 mx-auto py-3">            
+                <h6 className=" fw-semibold pt-2 ">Services</h6>
+
+                <p><a href="#!" className="text-reset">Digital marketing</a></p>
+                <p><a href="#!" className="text-reset">Cloud Solutions</a></p>
+                <p><a href="#!" className="text-reset">Interprise Solutions</a></p>
+               
+              </div>            
+              <div className="col-lg-2 col-md-4 mx-auto py-3">               
+                <h6 className=" fw-semibold pt-2"> Support</h6>
+                <p><a href="#!" className="text-reset">Terms of Use</a></p>
+                <p><a href="#!" className="text-reset">Privacy Statement</a></p>
+                <p><a href="#!" className="text-reset">Cookie Policy</a></p>
+                <p><a href="#!" className="text-reset">Spreads Support</a></p>
+                <p><a href="#!" className="text-reset">Spreads ADs Support</a></p>
+                <p><a href="#!" className="text-reset">Spreads Web Support</a></p>
+                
+                
+              </div>
+              <div className="col-lg-3 col-md-4  mb-md-0 py-3">
+                <h6 className=" fw-bold ">Contact</h6>
+                <p><IoLocationSharp className="me-3" /> Rewa(M.P.), India</p>
+                <p><MdOutlineMailOutline className="me-3" /> ambispinetechnology@gmail.com</p>
+                <p><IoCallSharp className="me-3" />+91 9685221056</p>
+                <p><IoCallSharp className="me-3" />+91 8368140262 </p>
+              </div>
+             
+            </div>
+          
+          </div>
+
+       
+        <div className="text-center p-4 text-white " style={{fontSize:"14px"}}>
+         All Rights Reserved © 2024 Copyright: Taken by AmbiSpine Technologies Private Limited
+         
+        </div>
+       
+      </footer>
+  )
+}

@@ -1,0 +1,84 @@
+.About{
+  height: 100vh;     
+.img-container{
+height: 100vh;
+position: relative;
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}  
+
+
+@media (max-width: 768px) {
+  .overlap-text h2 {
+    font-size: 40px;
+  }
+  
+  .overlap-text h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlap-text h2 {
+    font-size: 30px;
+  }
+
+  .overlap-text h5 {
+    font-size: 20px;
+  }
+}
+}
+
+.overlap-text{
+position: absolute;
+top: 40%;
+left: 5%;
+color: white;
+align-items: center;
+h2{
+  font-weight: bolder;
+  font-size: 50px;
+}
+h5{
+  font-weight: bolder;
+  font-size: 30px;
+}
+}
+}
+
+.Contact{
+  margin-top: 80px;  
+  height: 100vh;
+ .contact-text-link{   
+    border: 2px solid gainsboro;
+  }
+}
+
+.Contact-Option .contacts_heros_sectin{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to right, rgba(27, 27, 27, 0) 70%, rgb(19, 18, 18) 100%);
+  }
+  
+}
+.feed-back-content{ 
+  position: absolute;
+  top: 80px;
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+}
+
+.no-outline:focus {
+      outline: none;
+      box-shadow: none;
+ }

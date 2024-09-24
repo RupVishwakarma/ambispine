@@ -1,0 +1,28 @@
+
+.footer-link {
+          .trade-mark{
+                    margin-left: -10px;
+                    margin-top: -10px;
+                    color: white;
+          } 
+          a{
+          
+                    text-decoration: none;
+                    color: white;
+                    .fa-I{
+                     background-color: #2682f1;
+                    }
+                    .fa-y{
+                              background-color: rgb(244, 60, 60);
+                    }
+                    .fa-Is{
+                              background-color: rgb(247, 81, 100);
+                    }
+                    .fa-b{
+                              background-color: rgb(23, 23, 110);
+                    
+          }         }
+}
+
+         
+         

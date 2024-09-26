@@ -1,22 +1,27 @@
+#NextVision {
+  background-color: white;
+}
 
  .NextVision-container {
-  height: 90vh;
+  height: 100vh;
+  position: relative;
 
   .carousel-control-prev-icon {
     margin-left: -50%;
-    background-color: black;
+    margin-top: -10%;
+    border: 2px solid black;
+    color: black;
     border-radius: 50%;
   }
   .carousel-control-next-icon {
     margin-right: -50%;
-    background-color: black;
+    border: 2px solid black;
+    color: black;
     border-radius: 50%;
+    margin-top: -10%;
   }
 }
 
-#NextVision {
-  background-color: white;
-}
 
 #NextVision .img-container {
   
@@ -24,12 +29,13 @@
   width: 150px;
   overflow: hidden;
   margin: 0 auto;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 #NextVision .img-container.large {
   height: 480px;
   width: 250px;
+  transition: all 1s ease-in-out;
 }
 
 #NextVision .img-container img {
@@ -37,19 +43,25 @@
   width: 100%;
   border-radius: 8px;
   object-fit: cover;
-  transition: opacity 0.5s ease-in-out; /* Adjusted to transition opacity */
+  transition: opacity 0.5s ease-in-out; 
   opacity: 1;
 }
 
 #NextVision .img-container img:hover {
-  opacity: 0.5; /* Make the image 50% transparent on hover */
+  opacity: 0.8; /* Make the image 50% transparent on hover */
 }
+
 #NextVision .see-more-btn {
   display: none;
   position: absolute;
-  bottom: 10px;
-  left: 50%;       
-  transform: translateX(-50%);      
+  bottom: 0px;
+  left: 50%;     
+  margin: 1rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.5rem;
+  background: white;  
+  transform: translateX(-50%);   
+  border-radius: 5px;   
 }
        
 

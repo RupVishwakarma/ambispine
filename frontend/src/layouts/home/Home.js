@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <React.Fragment>
       {/* <Hero_Image /> */}
-      <Hero_Section />
+      {/* <Hero_Section /> */}
       <Spread />
       <VideoSection />
 
